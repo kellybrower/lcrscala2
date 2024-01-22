@@ -1,0 +1,26 @@
+@import lcrgame.types.Player
+
+@(game: List[Player])
+
+@main("LCR Game") {
+    <h1>LCR Game</h1>
+    <div id="game-state">
+        @for(player <- game) {
+            <p>Player @player.id: @player.chips chips</p>
+        }
+    </div>
+    <div id="game-controls">
+        @for((player, index) <- game.zipWithIndex) {
+            <button onclick="playRound(@index + 1)">Player @player.id Play</button>
+        }
+    </div>
+
+<script type="text/javascript">
+    function playRound(playerNumber) {
+        var baseUrl = "@routes.GameController.playRound(0)";
+        var url = baseUrl.replace("0", playerNumber);
+        window.location.href = url;
+    }
+</script>
+
+}

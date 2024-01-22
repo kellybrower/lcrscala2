@@ -1,0 +1,11 @@
+@(game: lcrgame.types.Game)
+@main("Game Over") {
+<h1>Game Over</h1>
+<div id="final-state">
+  @for(player <- game) {
+  <p>Player @player.id: @player.chips chips</p>
+  }
+</div>
+<a href="@routes.GameController.startGame(3)">Start New Game</a>
+}
+

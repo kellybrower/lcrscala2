@@ -1,0 +1,40 @@
+
+# Compiled class files
+*.class
+
+# Compiled Java files from Java-based Play Framework projects
+/target/
+
+# SBT specific
+lib_managed/
+project/project/
+project/target/
+.cache/
+.history/
+.streams/
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code files
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Others
+dist/
+tmp/
+node/
+node_modules/
+test-result/
+RUNNING_PID

@@ -1,0 +1,23 @@
+2024.01.22 17:13:10 INFO  Started: Metals version 1.2.0 in folders '/Users/kellybrower/mystuff/scala/playground/lcrscala' for client Visual Studio Code 1.85.2.
+2024.01.22 17:13:11 WARN  Build server is not auto-connectable.
+Jan 22, 2024 5:14:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 22, 2024 5:14:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 22, 2024 5:14:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.01.22 17:14:25 WARN  no build target for: /Users/kellybrower/mystuff/scala/playground/lcrscala/app/controllers/GameController.scala
+2024.01.22 17:14:35 INFO  no build target found for /Users/kellybrower/mystuff/scala/playground/lcrscala/app/controllers/GameController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.22 17:14:36 WARN  Build server is not auto-connectable.
+2024.01.22 17:14:37 INFO  time: code lens generation in 11s
+Jan 22, 2024 5:14:41 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 22, 2024 5:14:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 22, 2024 5:14:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.01.22 17:22:50 WARN  no build target for: /Users/kellybrower/mystuff/scala/playground/lcrscala/app/controllers/GameController.scala
+2024.01.22 17:23:05 WARN  no build target for: /Users/kellybrower/mystuff/scala/playground/lcrscala/app/controllers/GameController.scala
+2024.01.22 17:26:46 INFO  Shutting down server
+2024.01.22 17:26:46 INFO  shutting down Metals
+2024.01.22 17:26:46 INFO  Exiting server
